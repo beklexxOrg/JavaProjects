@@ -6,7 +6,6 @@ public class Main {
         groupByNumbers(nums);
 
     }
-// adwsfasdfa sddf asdf asdf asdf
     private static void groupByNumbers(int[] nums) {
         HashMap<Integer, Integer> numsMap = new HashMap<>();
 
