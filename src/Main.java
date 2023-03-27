@@ -8,7 +8,7 @@ public class Main {
     }
     private static void groupByNumbers(int[] nums) {
         HashMap<Integer, Integer> numsMap = new HashMap<>();
-// 1111111111111111
+// 111111111111111111
         for(int i = 0; i < nums.length; i++) {
             if (!numsMap.containsKey(nums[i])) {
                 numsMap.put(nums[i], 1);
