@@ -9,11 +9,12 @@ public class Main {
     private static void groupByNumbers(int[] nums) {
         HashMap<Integer, Integer> numsMap = new HashMap<>();
 // 111111111111111111
-        for(int i = 0; i < nums.length; i++) {
-            if (!numsMap.containsKey(nums[i])) {
-                numsMap.put(nums[i], 1);
+
+        for(int j = 0; j < nums.length; j++) {
+            if (!numsMap.containsKey(nums[j])) {
+                numsMap.put(nums[j], 1);
             } else {
-                numsMap.put(nums[i], numsMap.get(nums[i]) + 1);
+                numsMap.put(nums[j], numsMap.get(nums[j]) + 1);
             }
         }
         System.out.println(numsMap);
