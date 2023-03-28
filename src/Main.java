@@ -1,19 +1,13 @@
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 import java.util.HashMap;
 
 public class Main {
-
     public static void main(String[] args) {
         System.out.println("starting...");
         int[] nums = {1, 2, 34, 6, 78, 8, 9, 32, 1, 34};
-        groupByNumbers(nums);
-
+        groupByNumber(nums);
     }
-    private static void groupByNumbers(int[] nums) {
+    private static void groupByNumber(int[] nums) {
         HashMap<Integer, Integer> numsMap = new HashMap<>();
-
-        // TEST! !!!!!!!!!!!!!!!!!!!!!!
 
         for(int j = 0; j < nums.length; j++) {
             if (!numsMap.containsKey(nums[j])) {
