@@ -1,7 +1,11 @@
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 import java.util.HashMap;
 
 public class Main {
+
     public static void main(String[] args) {
+        System.out.println("starting...");
         int[] nums = {1, 2, 34, 6, 78, 8, 9, 32, 1, 34};
         groupByNumbers(nums);
 
@@ -19,5 +23,6 @@ public class Main {
             }
         }
         System.out.println(numsMap);
+        System.out.println("End of work");
     }
 }
